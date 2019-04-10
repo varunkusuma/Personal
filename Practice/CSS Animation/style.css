@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: black;
+}
+.animateA {
+  color: #c4e538;
+  position: absolute;
+  left: 10%;
+  top: 0;
+  transform: translate(-50%, 0%);
+  animation-name: animate;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  font-size: 10px;
+}
+.animateB {
+  color: #c4e538;
+  position: absolute;
+  left: 30%;
+  top: 0;
+  transform: translate(-50%, 0%);
+  animation-name: animate;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  font-size: 10px;
+}
+.animateC {
+  color: #c4e538;
+  position: absolute;
+  left: 50%;
+  top: 0;
+  transform: translate(-50%, 0%);
+  animation-name: animate;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  font-size: 10px;
+}
+.animateD {
+  color: #c4e538;
+  position: absolute;
+  left: 70%;
+  top: 0;
+  transform: translate(-50%, 0%);
+  animation-name: animate;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  font-size: 10px;
+}
+.animateE {
+  color: #c4e538;
+  position: absolute;
+  left: 90%;
+  top: 0;
+  transform: translate(-50%, 0%);
+  animation-name: animate;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  font-size: 10px;
+}
+
+@keyframes animate {
+  25% {
+    top: 25%;
+    color: #12cbc4;
+    transform: rotate(90deg);
+    font-size: 20px;
+  }
+  50% {
+    top: 50%;
+    color: #5758bb;
+    transform: rotate(180deg);
+    font-size: 30px;
+  }
+  75% {
+    top: 75%;
+    color: #ea2027;
+    transform: rotate(270deg);
+    font-size: 40px;
+  }
+  85% {
+    top: 90%;
+    color: #ffc312;
+    transform: rotate(360deg);
+    font-size: 50px;
+  }
+}

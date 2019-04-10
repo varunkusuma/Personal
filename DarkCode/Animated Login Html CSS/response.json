@@ -1,0 +1,17 @@
+{
+  "header": {
+    "deviceType": "AFib",
+    "name": "AFib",
+    "eventType": "Arrhythmia",
+    "MemberInfo": { "MemberID": "1" }
+  },
+  "deviceEvent": {
+    "mbid": "1",
+    "user_id": "2138798249",
+    "irregular_events_percentage": "2.2316284927224541",
+    "irregular_events_color": "Red",
+    "bpm_over_100_percentage": "0",
+    "bpm_over_100_color": "Green",
+    "mail_both_reports_to_pt": "2018-12-11"
+  }
+}
